@@ -8,3 +8,19 @@ wheels/
 
 # Virtual environments
 .venv
+
+
+# Ignore local development artifacts
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore IDE/editor and Git files
+.vscode/
+.idea/
+.git/
+
+# Ignore documentation and test files
+README.md
+tests/
